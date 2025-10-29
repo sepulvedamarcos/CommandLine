@@ -58,10 +58,49 @@ public class Opciones : IValidatable
     }
 }
 
+public static class Program
+{
+    public static void Main(string[] args)
+    {
+        // Definir el comando principal
+        var command = new Command("Ejemplo de uso de CommandLineLite");
+
+        // Registrar las opciones que el programa acepta
+        command.AddOption(new Option<string>(
+            "--nombre",
+            "Nombre del usuario",
+            isRequired: true,
+            alias: "-n"
+        ));
+        command.AddOption(new Option<int>(
+            "--edad",
+            "Edad del usuario",
+            defaultValue: 18,
+            alias: "-e")
+        );
+        command.AddOption(new Option<bool>(
+            "--verbose",
+            "Muestra mensajes detallados",
+            alias: "-v"))
+        ;
+
+        // Parsear los argumentos en la clase de opciones
+        var opciones = Parser.Parse<Opciones>(command, args);
+
+        // Lógica del programa
+        Console.WriteLine($"Hola {opciones.Nombre}, tienes {opciones.Edad} años.");
+        if (opciones.Verbose)
+            Console.WriteLine("Modo detallado activado.");
+    }
+}
+```
+
 lo puedes ejecutar por ejemplo con:
+
 ```csharp
 dotnet run -- --nombre Marcos --edad 35 --verbose
 ```
+
 ```csharp
 dotnet run -- --help
 
@@ -79,6 +118,7 @@ Opciones:
 
 
 <div align="center">
+
 ## ☕ Apoya el proyecto
 
 ¿Te resultó útil CommandLineLite?
