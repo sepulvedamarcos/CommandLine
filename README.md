@@ -113,18 +113,19 @@ Opciones:
   --verbose, -v         Muestra mensajes detallados
   --help, -h            Muestra esta ayuda
   --version, -v         Muestra la versión de la aplicación
-
 ```
 
 
+---
+
 <div align="center">
 
-## ☕ Apoya el proyecto
-
-¿Te resultó útil CommandLineLite?
-⭐ Dale una estrella al repositorio para apoyar su desarrollo.
+**¿Te resultó útil CommandLineLite?**  
+⭐ Dale una estrella al repositorio
 
 **¿Quieres apoyar el desarrollo?**  
 ☕ [Invítame un café](https://ko-fi.com/sepulvedamarcos)
+
+*Proyecto creado con fines educativos y de aprendizaje*
 
 </div>
