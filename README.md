@@ -1,6 +1,6 @@
 # CommandLineLite
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ![Made with C#](https://img.shields.io/badge/Made%20with-C%23-239120.svg?logo=csharp)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20|%20Windows-orange.svg)](https://dotnet.microsoft.com/)
 
