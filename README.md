@@ -118,14 +118,8 @@ Opciones:
 
 ---
 
-<div align="center">
-
 **¿Te resultó útil CommandLineLite?**  
 ⭐ Dale una estrella al repositorio
 
 **¿Quieres apoyar el desarrollo?**  
 ☕ [Invítame un café](https://ko-fi.com/sepulvedamarcos)
-
-*Proyecto creado con fines educativos y de aprendizaje*
-
-</div>
